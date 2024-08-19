@@ -26,6 +26,7 @@ def print_error(message, quiet):
     """
     Print error message to stderr if not quiet
     """
+    print("Test for commit")
     if not quiet:
         print(message, file=sys.stderr)
 
